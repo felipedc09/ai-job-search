@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Frontend architecture (React, TypeScript), JavaScript, C#/.NET, Node.js, full-stack web delivery, AWS microservices (ECS Fargate, Lambda, API Gateway), CI/CD (GitHub Actions), Docker/Kubernetes, 3D/AR (Unity, WebGL), graph algorithms/routing, technical leadership
+**Moderate match areas:** Python, real-time data pipelines, BIM/Revit tooling, Mapbox/geospatial, testing (Playwright, Cypress), AI-assisted development / agentic tooling
+**Weak match areas:** Native-level C1+ English content roles, formal people-management-only roles, ML/data-science modeling, mobile-native (iOS/Android) development, non-web backend ecosystems (Go, Rust, Java/Spring)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Senior/lead full-stack & frontend engineering, web platform architecture, ConstructionTech / BIM / digital twins, 3D/AR product engineering
+**Moderate:** Cloud/microservice architecture roles, technical-lead / staff-engineer roles, data-pipeline engineering
+**Entry-level:** Formal engineering-manager roles, ML/data-science roles, non-web-stack backend roles
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,11 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- Remote (international or Americas-timezone): PASS
+- Bogotá hybrid / on-site: PASS
+- Remote with occasional travel: PASS
+- Requires relocation abroad: FAIL (not seeking relocation)
+- Time zone with little Americas overlap (e.g. core Europe/Asia hours only): FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +64,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Reach Software Architect / Principal Software Engineer level in an international engineering team
+- Own architecture and high-impact systems while staying hands-on
+- Grow toward principal/architect responsibilities in global, English-working teams
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: architecture ownership, hard technical problems (algorithms, pipelines, 3D/AR), migrations & greenfield/0→1 work, cross-functional technical leadership, adopting new tooling (AI agents)
+- Tasks that drain: rigid low-autonomy environments, micromanagement, pure legacy maintenance with little new development, process-heavy work with no technical influence
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed; moving deliberately for the right senior/architect-track role, not out of urgency
+- **Flexibility**: Based in Bogotá; prefers remote-international, Americas-timezone remote, or Bogotá hybrid. Not relocating abroad.
+- **Professional development**: Prioritizes architect/principal growth path and continued English improvement toward C1
 
 ### 6. Salary Benchmark (Optional)
 

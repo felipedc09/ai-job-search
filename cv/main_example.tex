@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Felipe Duitama
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,18 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Felipe Duitama - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Felipe}{Duitama}
+\address{Carrera 45 \# 56-51, Bogotá, Colombia}{}{}
+\phone[mobile]{+57 320 3448583}
+\email{felipedc09@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/felipedc09}{LinkedIn}, \href{https://github.com/felipedc09}{GitHub}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Senior Software Engineer with 12+ years building robust, scalable, and maintainable products across complex domains, growing from frontend engineer to technical lead. Core strength in frontend architecture (React, TypeScript, component systems, atomic design) backed by solid Node.js/C\# backend and AWS cloud delivery covering the full lifecycle. Proven at designing complex systems — graph-based routing algorithms, real-time pipelines, AWS microservices, and 3D/AR browser experiences. Comfortable owning architecture decisions, leading cross-functional teams, and going hands-on when it matters.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Frontend Architecture}: React, Next.js, TypeScript, component systems, atomic design, TypeScript migrations, WebGL, Chart.js, Mapbox.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Backend \& Cloud}: Node.js, C\#/.NET, AWS microservices (ECS Fargate, EC2, Lambda, API Gateway, CloudWatch), custom message brokers.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Algorithms \& Systems}: Graph-based routing (Dijkstra), real-time data pipelines, file-conversion pipelines, WebSocket services.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{3D / AR}: Unity 3D, Microsoft HoloLens SDK, browser-native 3D (WebGL), BIM/Revit plugin development (C\#).
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{DevOps \& Tooling}: CI/CD (GitHub Actions), Docker, Kubernetes, Playwright/Cypress testing, AI-assisted development (LLM coding agents, MCP, Claude Code).
 
 \end{itemize}
 
@@ -77,31 +76,13 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2013--Present}{Software Engineer $\rightarrow$ Technical Lead}{3D Virtual Environment Solutions}{Bogotá, Colombia}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Led migration of the ARAS/BIMEP HVAC platform from a vanilla-JS monolith to React + TypeScript + Node.js, then architected the transition to AWS microservices (ECS Fargate, EC2, API Gateway), decomposing compute-intensive algorithms into independently scalable services.
+    \item Designed and implemented a Dijkstra-based pipe auto-routing algorithm over a room-grid graph where edge weights encode HVAC heat load, automating layout-aware pipe distribution across building floors.
+    \item Built a lightweight custom message broker coordinating async communication between Node.js services and Python algorithms on AWS Lambda; established CI/CD via GitHub Actions with semantic versioning.
+    \item Served as technical lead during algorithm integration: owned architecture and infrastructure decisions, ran planning, managed the backlog in Notion, and coordinated a cross-functional team across engineering, design, and data science.
+    \item Delivered multiple products end-to-end: a facility-mapping tool (React, Next.js, PostgreSQL, Mapbox), a browser-native 3D model viewer with a file-conversion pipeline and WebSocket progress, and a hospital-scale digital twin (Unity 3D, MENU stack) integrating live HVAC sensor data.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +95,14 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2011--2020}{Systems Engineering}{Universidad Distrital Francisco José de Caldas}{Bogotá, Colombia}{}{\vspace{1pt}
+Software engineering, algorithms, and systems design.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2017--2019}{Unity Certified Developer}{Unity Technologies}{}{}{\vspace{1pt}
+Certified in Unity 3D development.
 }}
 
 \end{itemize}
@@ -133,27 +114,17 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item Spanish (native), English (intermediate, B1--B2, improving toward C1), French (basic).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     CONFERENCES
 % ============================================================
 
-\section{Publications}
+\section{Conferences}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item JSConf, NodeConf, Unity Developer Day (2019); CSSConf Colombia (2021).
 \end{itemize}
 
 % ============================================================

@@ -39,18 +39,18 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Felipe Duitama - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.77]{geometry}
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\name{Felipe}{Duitama}
+\address{Carrera 45 \# 56-51, Bogotá, Colombia}{}{}
+\phone[mobile]{+57 320 3448583}
+\email{felipedc09@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/felipedc09}{LinkedIn}, \href{https://github.com/felipedc09}{GitHub}}
 
 \begin{document}
 \makecvtitle
@@ -105,12 +105,14 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Software Architect / Principal Engineer roles:**
+> Senior Software Engineer with 12+ years designing and delivering robust, scalable systems across complex domains, growing from frontend engineer to technical lead. Owns architecture end-to-end — from React/TypeScript frontends to AWS microservices — and has led a monolith-to-microservices migration and designed graph-based routing algorithms in production. Pragmatic about tradeoffs, deliberate about long-term maintainability, and hands-on when it matters. Ready to contribute at architect/principal level in an international engineering team.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Senior Frontend / Full Stack roles:**
+> Senior Full Stack Engineer with 12+ years and a core strength in frontend architecture: component systems, TypeScript migrations, atomic design, and clean code boundaries, backed by solid Node.js/AWS backend and cloud delivery. Built and shipped complex web products (3D/AR viewers, geospatial mapping tools, data-heavy dashboards) with React, Next.js, and WebGL. Product-minded, fast to iterate, and experienced leading cross-functional delivery.
+
+**For Full Stack Developer roles:**
+> Full Stack Developer with 12+ years across React, TypeScript, Node.js, C#/.NET, and AWS, comfortable owning features from database to UI. Track record spanning frontend architecture, microservices, CI/CD (GitHub Actions), and 3D/AR — plus hands-on adoption of AI-assisted development workflows including LLM coding agents and Claude Code. Self-managing, solution-oriented, and quick to learn new stacks.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Felipe Duitama
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Felipe Duitama, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +13,58 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Felipe Duitama
+- **Location:** Bogotá, Colombia (remote-international / Americas-timezone remote / Bogotá hybrid; not relocating abroad)
+- **Languages:** Spanish (native), English (B1–B2, improving toward C1), French (basic)
+- **Status:** Employed, open to new opportunities
+- **LinkedIn headline:** "Senior Software Engineer | Full Stack & Frontend Architecture | React · TypeScript · AWS"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Systems Engineering** (2011–2020) - Universidad Distrital Francisco José de Caldas
+  - Topics: Software engineering, algorithms, systems design
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Software Engineer → Technical Lead** (2013 - Present) - **3D Virtual Environment Solutions** (Bogotá, Colombia — ConstructionTech)
+  - Led monolith→microservices migration (vanilla JS → React/TypeScript/Node.js, AWS ECS Fargate/Lambda/API Gateway)
+  - Designed a Dijkstra-based pipe auto-routing algorithm over a heat-load-weighted room-grid graph
+  - Technical lead over a cross-functional team (engineering, design, data science); owned architecture and CI/CD (GitHub Actions)
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** React, TypeScript, JavaScript, Node.js, C#/.NET, frontend architecture, AWS microservices
+- **Secondary:** Python, Docker/Kubernetes, CI/CD (GitHub Actions), Playwright/Cypress, AI-assisted development (LLM agents, MCP, Claude Code)
+- **Domain:** Frontend/cloud architecture, graph algorithms & routing, 3D/AR (Unity, WebGL, HoloLens), BIM/Revit, ConstructionTech
+- **Software:** Next.js, Unity 3D, WebGL, Mapbox, Chart.js, MongoDB, MySQL, PostgreSQL, Git, Notion
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Unity Certified Developer** - completed 2017–2019
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None to date.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None recorded.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **End-to-end ownership** - Owns architecture through delivery, including infra and coordination
+- **Hands-on leadership** - Leads technically while staying deep in the code
+- **Strengths:** Autonomy, hard-problem solving, pragmatic architecture, continuous learning
+- **Growth areas:** English toward C1; breadth of formal line-management
+- **Thrives in:** High-autonomy, complex/greenfield work with cross-functional collaboration
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Owning architecture and hard technical problems (algorithms, pipelines, 3D/AR)
+- Migrations and greenfield/0→1 work; adopting emerging tooling (AI coding agents)
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Software product companies (remote-international, Americas timezone)
+- ConstructionTech / PropTech / BIM; 3D/AR/spatial computing; developer tooling
+
+### Career Objective
+- Reach **Software Architect / Principal Software Engineer** in an international engineering team while staying hands-on.
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Rigid, low-autonomy, or micromanaged environments
+- Relocation abroad (not seeking it); pure legacy-maintenance roles with little new development
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
