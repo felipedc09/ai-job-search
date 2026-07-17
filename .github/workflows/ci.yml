@@ -20,6 +20,9 @@
 # attempts, not a determined author - branch protection with required checks
 # and human review of workflow/settings diffs remain the real backstop.
 # Actions are pinned to commit SHAs; the token is read-only.
+#
+# Note: `master` is a protected branch — changes land via pull request, so the
+# `pull_request` trigger below is the primary gate that runs these checks.
 
 name: CI
 
