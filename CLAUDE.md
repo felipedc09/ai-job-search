@@ -62,6 +62,9 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ### Career Objective
 - Reach **Software Architect / Principal Software Engineer** in an international engineering team while staying hands-on.
 
+### Compensation Expectations
+- **Target:** 3,500 USD/month (42,000 USD/year), base salary. Open to discussing the full package (equity, benefits) around this anchor.
+
 ### Deal-breakers
 - Rigid, low-autonomy, or micromanaged environments
 - Relocation abroad (not seeking it); pure legacy-maintenance roles with little new development
