@@ -16,13 +16,32 @@ remote / international:
   optional `--location "Bogotá D.C."`/`"Medellín"`, `--jobage 14`. Best for on-site/
   hybrid Colombian roles. `detail` needs the full offer URL from a search result.
 
+Remote-first boards added 2026-07-23 from the user's 5 curated articles (public APIs,
+no token needed; all support `--query`, `--jobage`, `--limit`, `--format json`):
+- **getonbrd-search** — Get on Board (LATAM tech, ES+EN, USD/month pay); `--query`,
+  `--category programming`, `--remote remote`. **Strongest LATAM fit.**
+- **torre-search** — Torre (LATAM-strong global); `--query`, `--timezone -5` (Bogotá
+  overlap), `--experience potential-to-develop`. Broad ranker + client relevance guard.
+- **weworkremotely-search** — We Work Remotely (global remote); `--query`,
+  `--category programming|full-stack|front-end|back-end|devops`. Fresh, top-tier employers.
+- **himalayas-search** — Himalayas (global remote); `--query`, `--timezone -5`. 96k jobs,
+  paged; the only board besides Torre with real timezone filtering.
+- **remotive-search** — Remotive (global remote); `--query`. Fixed ~35-job recent feed.
+- **remoteok-search** — RemoteOK (global remote, tech-heavy); `--query`. Latest ~99 only.
+- **workingnomads-search** — Working Nomads (global remote); `--query`. Small teaser feed.
+
 The four Denmark-only CLIs (Jobindex, Jobbank, Jobdanmark, Jobnet) were **removed** —
 they don't apply to this search. Add more local boards as native CLIs with `/add-portal`.
 
-Additional sources (via WebSearch `site:` fallback, or scaffold with `/add-portal`):
-- **getonbrd.com** (Get on Board) — LATAM tech board; needs a free API token (not scaffolded).
-- **weworkremotely.com**, **remoteok.com**, **remote.co** — remote-first boards.
-- Direct Google `site:` searches for known target companies' career pages.
+See `job_scraper/portal-reference.md` for the full tiered map of all ~80 portals from the
+articles (Tier A = these CLIs; Tier B = WebSearch `site:` fallback; Tier C = parked) plus
+the 32-company LATAM watchlist.
+
+Additional sources (via WebSearch `site:` fallback — Tier B, auth-walled/anti-bot):
+- **Wellfound, Otta, Indeed, Glassdoor, ZipRecruiter, Jooble** — big boards behind logins.
+- **Bumeran/ZonaJobs, OCC Mundial (MX), Empleos TI (MX), Hireline (MX)** — LATAM local boards.
+- **Arc.dev, Turing, Braintrust, Gun.io, Toptal** — vetting networks (one-time profile signup).
+- Direct Google `site:` searches for the watchlist companies' career pages.
 
 ## Query Categories
 
